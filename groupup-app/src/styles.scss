@@ -1,4 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+    /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+    html,
+    body {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    body {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+    }
+
+    a,
+    a:hover {
+        text-decoration: none;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .fa-2x {
+        font-size: 1.5em;
+    }
+
+    .settings {
+        color: #FFFFFF;
+        height: 20px;
+    }
+
+    .aqua {
+        color: #00FFE0;
+    }
+
+    .yellow {
+        color: #FFF500;
+    }
+
+    .orange {
+        color: #FFA439
+    }
+
+    .p-relative {
+        position: relative;
+    }
+
+    .p-absolute {
+        position: absolute;
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .bg-white {
+        background-color: #FFFFFF;
+    }
+
+    .bg-transparent-black {
+        background-color: #4D4D4D;
+    }
+
+    .p-11 {
+        padding: 11px;
+    }

@@ -1,0 +1,114 @@
+.sidebar-main {
+    background-color: #131313;
+    padding: 0.969rem;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .sidebar-header {
+        margin: 0 1px;
+    }
+}
+
+.title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+// search
+.search {
+    margin-bottom: 5px;
+    input {
+        width: 100%;
+        height: 40px;
+        padding: 1.5rem 4.5rem;
+        border-radius: 10px;
+    }
+    span {
+        left: 4rem;
+        top: 7.2rem;
+    }
+}
+
+.p-8 {
+    padding: 8px 0;
+}
+
+::placeholder {
+    font-family: 'Golos Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #848484;
+}
+
+.group-display-pic {
+    border-radius: 50%;
+    background: white;
+    padding: 14px;
+    width: 52px;
+    height: 52px;
+    .dp {
+        color: #7C7C7C;
+    }
+}
+
+.fa-search:before {
+    content: "\f002";
+    color: #131313;
+}
+
+.font-family {
+    font-family: 'Golos Text';
+}
+
+.group-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.group-notification {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.group-notif-count {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.group-header {
+    margin-left: 14px;
+    .group-title {
+        margin-bottom: 4px;
+    }
+}
+
+.group-notif-count {
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.group+.group {
+    margin-bottom: 10px;
+}
+
+.group {
+    border-radius: 10px;
+}
+
+.gray {
+    color: #C6C6C6;
+}

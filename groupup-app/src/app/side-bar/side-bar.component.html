@@ -1,0 +1,129 @@
+<div class="sidebar-main">
+    <div class="sidebar-header p-8  justify-content-between d-flex align-items-center">
+        <a href="" class="title font-family">GroupUp</a>
+        <div class="row sidebar-settings justify-content-between align-items-center">
+            <div class="col">
+                <!-- <i class="fa fa-cog fa-2x settings" aria-hidden="true"></i> -->
+                <span class="material-symbols-outlined settings">
+                  settings
+                  </span>
+            </div>
+            <div class="col">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu" class="white">
+                    <mat-icon>more_vert</mat-icon>
+                    <mat-menu #menu="matMenu">
+                      <button mat-menu-item>
+                      <mat-icon>dialpad</mat-icon>
+                      <span>Redial</span>
+                    </button>
+                <button mat-menu-item disabled>
+                      <mat-icon>voicemail</mat-icon>
+                      <span>Check voice mail</span>
+                    </button>
+                <button mat-menu-item>
+                      <mat-icon>notifications_off</mat-icon>
+                      <span>Disable alerts</span>
+                    </button>
+                </mat-menu>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="search p-8">
+        <input type="text" placeholder="Search" class="p-relative">
+        <span class="material-symbols-outlined p-absolute">
+          search
+          </span>
+    </div>
+    <ng-container *ngIf="timeline">
+
+        <div class="group d-flex p-11 align-items-start justify-content-between bg-transparent-black">
+            <div class="group-left d-flex align-items-center">
+                <div class="group-display-pic p-relative">
+                    <!-- <span class="material-symbols-outlined p-absolute dp">
+            group
+            </span> -->
+                    <span class="material-symbols-outlined p-absolute dp">
+              calendar_view_day
+              </span>
+                </div>
+                <div class="group-header">
+                    <div class="group-title font-family white">
+                        Timeline
+                    </div>
+                    <div class="group-notification font-family gray">
+                        New Events Added
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+
+    <div class="group d-flex p-11 align-items-start justify-content-between">
+        <div class="group-left d-flex align-items-center">
+            <div class="group-display-pic p-relative">
+                <span class="material-symbols-outlined p-absolute dp">
+              group
+              </span>
+            </div>
+            <div class="group-header">
+                <div class="group-title font-family white">
+                    Bikers Gang
+                </div>
+                <div class="group-notification font-family aqua">
+                    New Trip Event Added
+                </div>
+            </div>
+        </div>
+        <div class="group-right">
+            <div class="group-notif-count bg-white">
+                <span class="font-family">2</span>
+            </div>
+        </div>
+    </div>
+    <div class="group d-flex p-11 align-items-start justify-content-between">
+        <div class="group-left d-flex align-items-center">
+            <div class="group-display-pic p-relative">
+                <span class="material-symbols-outlined p-absolute dp">
+            group
+            </span>
+            </div>
+            <div class="group-header">
+                <div class="group-title font-family white">
+                    My Family
+                </div>
+                <div class="group-notification font-family yellow">
+                    New Family Event Added
+                </div>
+            </div>
+        </div>
+        <div class="group-right">
+            <div class="group-notif-count bg-white">
+                <span class="font-family">8</span>
+            </div>
+        </div>
+    </div>
+    <div class="group d-flex p-11 align-items-start justify-content-between">
+        <div class="group-left d-flex align-items-center">
+            <div class="group-display-pic p-relative">
+                <span class="material-symbols-outlined p-absolute dp">
+          group
+          </span>
+            </div>
+            <div class="group-header">
+                <div class="group-title font-family white">
+                    School Friends
+                </div>
+                <div class="group-notification font-family orange">
+                    New Announcement Added
+                </div>
+            </div>
+        </div>
+        <div class="group-right">
+            <div class="group-notif-count bg-white">
+                <span class="font-family">9</span>
+            </div>
+        </div>
+    </div>
+
+</div>
