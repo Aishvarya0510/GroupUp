@@ -9,6 +9,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { GroupsModule } from './groups/groups.module';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
+import { SharedModule } from './shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatSlideToggleModule,
     GroupsModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

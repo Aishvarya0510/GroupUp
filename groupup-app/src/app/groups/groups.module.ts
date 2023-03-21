@@ -9,7 +9,7 @@ import { GroupDetailAnnouncementComponent } from './group-container/group-detail
 import { GroupDetailEventComponent } from './group-container/group-detail-event/group-detail-event.component';
 import { GroupDetailTodoComponent } from './group-container/group-detail-todo/group-detail-todo.component';
 import { GroupMembersComponent } from './group-container/group-members/group-members.component';
-
+import { SharedModule }  from './../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,9 @@ import { GroupMembersComponent } from './group-container/group-members/group-mem
   ],
   imports: [
     CommonModule,
+    SharedModule,
     GroupsRoutingModule
-  ]
+  ],
+
 })
 export class GroupsModule { }
